@@ -1,0 +1,16 @@
+/* App.css */
+body {
+    @apply bg-gray-50 text-gray-800;
+  }
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  .dark textarea {
+    @apply bg-gray-700 border-0 focus:ring-2 focus:ring-cyan-500 outline-none
+  }
+  .dark input {
+    @apply bg-gray-700 border-0 focus:ring-2 focus:ring-cyan-500 outline-none
+  }
+  .dark select {
+    @apply bg-gray-700 border-0 outline-none
+  }
